@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: dimgrey;
+}
+.column{
+    background-color: darkseagreen;
+    border: solid brown 2px;
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+
+}
+.row{
+    display: flex;
+}
+#main{
+
+    margin: auto;
+    margin-top: 15em;
+    width: max-content;
+    border: solid brown 2px;
+}
